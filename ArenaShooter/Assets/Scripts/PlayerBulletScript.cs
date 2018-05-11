@@ -17,8 +17,7 @@ public class PlayerBulletScript : MonoBehaviour {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemies")) {
             // set collision enemy to take damage
             collision.gameObject.GetComponent<IDamageable>().TakeDamage(m_damage);
-
-            Debug.Log("hit!!!");
+            // destroy bullet
             Die();
         }
     }

@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
         Gizmos.DrawWireSphere(transform.TransformPoint(m_bulletOriginRight), 0.1f);
     }
 
+
+
     // Use this for initialization
     void Start () {
         // set rotation drag speed
