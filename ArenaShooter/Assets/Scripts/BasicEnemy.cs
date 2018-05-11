@@ -14,7 +14,7 @@ public class BasicEnemy : EnemyBase {
 
 
     // Update is called once per frame
-    void Update ()
+    void FixedUpdate ()
     {
         HandleMovement(m_target.position);
     }

@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         HandleMovement();
         HandleFiring();
 	}
