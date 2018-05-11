@@ -37,6 +37,7 @@ public class Pathfinder {
             for (int o = 0; o < allNodes.Length; o++)
             {
                 if (n == o) continue;
+                if (Vector3.Distance(allNodes[n].transform.position, allNodes[o].transform.position) > 15f) continue;
                 if(Physics2D.Linecast(allNodes[n].transform.position, allNodes[o].transform.position).collider == null)
                 {
                     nodeBuffer.Add(allNodes[o].GetComponent<PathNode>());
@@ -54,13 +55,20 @@ public class Pathfinder {
 
     public Vector3 GetNextPosition(Vector3 targetPosition, Vector3 currentPosition)
     {
-        GameObject[] allGOs = GameObject.FindGameObjectsWithTag("Pathnode");
-        m_allNodes = new PathNode[allGOs.Length];
-
-        for (int i = 0; i < allGOs.Length; i++)
+        if(m_allNodes == null)
         {
-            m_allNodes[i] = allGOs[i].GetComponent<PathNode>();
+            //GameObject[] allGOs = GameObject.FindGameObjectsWithTag("Pathnode");
+            //m_allNodes = new PathNode[allGOs.Length];
+
+            //for (int i = 0; i < allGOs.Length; i++)
+            //{
+            //    m_allNodes[i] = allGOs[i].GetComponent<PathNode>();
+            //}
+
+            ConnectNodes(1 << LayerMask.NameToLayer("Terrain"));
         }
+
+        
 
         PathNode sourceNode = GetClosestNode(currentPosition);
         PathNode targetNode = GetClosestNode(targetPosition);
@@ -149,6 +157,7 @@ public class Pathfinder {
 
         finalPath[0].displayColor = Color.cyan;
 
+        Debug.Log("Returning " + finalPath[0].transform.position);
         return finalPath[0].transform.position;
     }
 

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - PowerShot
   - HitPoints
+<<<<<<< HEAD
+=======
+  - Pathnode
+>>>>>>> 1eff888e9403d2092bd27b89c4984c86ace89218
   layers:
   - Default
   - TransparentFX
@@ -17,9 +21,9 @@ TagManager:
   - 
   - Player
   - PlayerBullets
-  - 
-  - 
-  - 
+  - Terrain
+  - Enemies
+  - EnemyBullets
   - 
   - 
   - 

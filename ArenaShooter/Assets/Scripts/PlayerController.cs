@@ -33,6 +33,12 @@ public class PlayerController : MonoBehaviour, IDamageable {
     [SerializeField]
     private float m_playerBulletSpeed;
 
+    private bool m_boosterEnabled = false;
+    [SerializeField]
+    private float m_boosterMultiplier;
+    [SerializeField]
+    private ParticleSystem m_boosterParticles;
+
     [SerializeField]
     private int m_hitpoints;
     private int m_maxHitPoints;
@@ -163,6 +169,29 @@ public class PlayerController : MonoBehaviour, IDamageable {
         // grab axis
         float horizontalMovement = Input.GetAxis("Horizontal");
         float verticalMovement = Input.GetAxis("Vertical");
+        bool boosterPressed = (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift));
+
+        if (m_boosterEnabled)
+        {
+            if(!boosterPressed)
+            {
+                m_boosterEnabled = false;
+                m_maxThrustSpeed /= m_boosterMultiplier;
+                m_boosterParticles.Stop();
+            }
+            verticalMovement *= m_boosterMultiplier;
+            horizontalMovement /= m_boosterMultiplier;
+        } else
+        {
+            if (boosterPressed)
+            {
+                m_boosterEnabled = true;
+                m_maxThrustSpeed *= m_boosterMultiplier;
+                m_boosterParticles.Play();
+            }
+        }
+
+        
 
         // do rotation ---------------------------------------------------------------------
         // get current rotation speed
