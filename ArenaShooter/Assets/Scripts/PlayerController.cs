@@ -36,6 +36,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
     [SerializeField]
     private int m_hitpoints;
 
+    private int m_maxHitPoints;
+
     // set bullet origin points -- exposed as public to display in the Unity editor.
     public Vector2 m_bulletOriginLeft = Vector2.zero;
     public Vector2 m_bulletOriginRight = Vector2.zero;
@@ -57,7 +59,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
     void Start() {
         // set rotation drag speed
         m_rigidBody.angularDrag = m_rotationDrag;
-        //m_playerBulletPooler = new PlayerBulletPooler();
+        m_maxHitPoints = m_hitpoints;
     }
 
     // Update is called once per frame
@@ -81,11 +83,30 @@ public class PlayerController : MonoBehaviour, IDamageable {
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+        // pickups ----------------------------------
+        // power shot pickup ------------------------
         if (collision.gameObject.layer == LayerMask.NameToLayer("Pickups") && collision.gameObject.tag == "PowerShot") {
-            // set the shot back on
-            m_powerShot = true;
-            // remove the pickup
-            Destroy(collision.gameObject);
+
+            // check to see if we need this pickup
+            if (!m_powerShot) {
+                // set the shot back on
+                m_powerShot = true;
+                // remove the pickup
+                Destroy(collision.gameObject);
+            }
+        }
+
+        // hitpoints pickup -------------------------
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Pickups") && collision.gameObject.tag == "HitPoints") {
+
+            // check to see if we need any hitpoints, if not we can leave the pickup where it is.
+            if (m_hitpoints < m_maxHitPoints) { 
+                // add the hitpoints back in
+                m_hitpoints += collision.gameObject.GetComponent<HitPointPickupScript>().Hitpoints;
+                if (m_hitpoints > m_maxHitPoints) m_hitpoints = m_maxHitPoints;
+                // remove the pickup
+                Destroy(collision.gameObject);
+            }   
         }
     }
 

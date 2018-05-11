@@ -14,13 +14,12 @@ public class PlayerBulletPooler : MonoBehaviour {
             GameObject powerShotToReturn = m_playerPowerShotPool[0];
             m_playerPowerShotPool.RemoveAt(0);
             powerShotToReturn.SetActive(true);
-
             return powerShotToReturn;
         }
         else {
-            GameObject newPS = Instantiate(m_playerPowerShotPrefab);
-            newPS.GetComponent<PlayerPowerShotScript>().Initialize(this);
-            return newPS;
+            GameObject newPowerShot = Instantiate(m_playerPowerShotPrefab);
+            newPowerShot.GetComponent<PlayerPowerShotScript>().Initialize(this);
+            return newPowerShot;
         }
     }
 
