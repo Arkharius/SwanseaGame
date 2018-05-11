@@ -8,9 +8,14 @@ public class Enemy : MonoBehaviour, IDamageable {
     private Rigidbody2D m_rigidbody;
 
     [SerializeField]
-    private float m_turnRate, m_movementSpeed;
+    [Range(0.1f, 2.0f)]
+    private float m_turnRate = 0.5f;
+        
+    [SerializeField]
+    private float m_movementSpeed;
 
-    private float m_angle;
+    [SerializeField]
+    private int m_hitPoints = 5;
 
     // Use this for initialization
     void Start () {
@@ -25,10 +30,8 @@ public class Enemy : MonoBehaviour, IDamageable {
         Vector2 targetVector =  m_target.position - transform.position;
         float targetAngle = Vector2.SignedAngle(transform.up, targetVector);
 
-        //bool turnRight = (Vector2.Dot(transform.right, targetVector) > 0);
-
-        Debug.Log(targetAngle);
-        m_rigidbody.AddTorque(targetAngle);
+        //Debug.Log(targetAngle);
+        m_rigidbody.AddTorque(targetAngle*m_turnRate);
 
         // move towards player if within threshold        
         m_rigidbody.AddForce(transform.up * m_movementSpeed);
@@ -42,6 +45,9 @@ public class Enemy : MonoBehaviour, IDamageable {
 
     public void TakeDamage(int damage)
     {
+        m_hitPoints -= damage;
 
+        if (m_hitPoints <= 0)
+            Die();
     }    
 }
