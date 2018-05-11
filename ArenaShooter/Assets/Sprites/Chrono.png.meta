@@ -1,0 +1,2722 @@
+fileFormatVersion: 2
+guid: 2b59d5b97f114a34497db46e0417d10c
+timeCreated: 1525943602
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Chrono_0
+    21300002: Chrono_1
+    21300004: Chrono_2
+    21300006: Chrono_3
+    21300008: Chrono_4
+    21300010: Chrono_5
+    21300012: Chrono_6
+    21300014: Chrono_7
+    21300016: Chrono_8
+    21300018: Chrono_9
+    21300020: Chrono_10
+    21300022: Chrono_11
+    21300024: Chrono_12
+    21300026: Chrono_13
+    21300028: Chrono_14
+    21300030: Chrono_15
+    21300032: Chrono_16
+    21300034: Chrono_17
+    21300036: Chrono_18
+    21300038: Chrono_19
+    21300040: Chrono_20
+    21300042: Chrono_21
+    21300044: Chrono_22
+    21300046: Chrono_23
+    21300048: Chrono_24
+    21300050: Chrono_25
+    21300052: Chrono_26
+    21300054: Chrono_27
+    21300056: Chrono_28
+    21300058: Chrono_29
+    21300060: Chrono_30
+    21300062: Chrono_31
+    21300064: Chrono_32
+    21300066: Chrono_33
+    21300068: Chrono_34
+    21300070: Chrono_35
+    21300072: Chrono_36
+    21300074: Chrono_37
+    21300076: Chrono_38
+    21300078: Chrono_39
+    21300080: Chrono_40
+    21300082: Chrono_41
+    21300084: Chrono_42
+    21300086: Chrono_43
+    21300088: Chrono_44
+    21300090: Chrono_45
+    21300092: Chrono_46
+    21300094: Chrono_47
+    21300096: Chrono_48
+    21300098: Chrono_49
+    21300100: Chrono_50
+    21300102: Chrono_51
+    21300104: Chrono_52
+    21300106: Chrono_53
+    21300108: Chrono_54
+    21300110: Chrono_55
+    21300112: Chrono_56
+    21300114: Chrono_57
+    21300116: Chrono_58
+    21300118: Chrono_59
+    21300120: Chrono_60
+    21300122: Chrono_61
+    21300124: Chrono_62
+    21300126: Chrono_63
+    21300128: Chrono_64
+    21300130: Chrono_65
+    21300132: Chrono_66
+    21300134: Chrono_67
+    21300136: Chrono_68
+    21300138: Chrono_69
+    21300140: Chrono_70
+    21300142: Chrono_71
+    21300144: Chrono_72
+    21300146: Chrono_73
+    21300148: Chrono_74
+    21300150: Chrono_75
+    21300152: Chrono_76
+    21300154: Chrono_77
+    21300156: Chrono_78
+    21300158: Chrono_79
+    21300160: Chrono_80
+    21300162: Chrono_81
+    21300164: Chrono_82
+    21300166: Chrono_83
+    21300168: Chrono_84
+    21300170: Chrono_85
+    21300172: Chrono_86
+    21300174: Chrono_87
+    21300176: Chrono_88
+    21300178: Chrono_89
+    21300180: Chrono_90
+    21300182: Chrono_91
+    21300184: Chrono_92
+    21300186: Chrono_93
+    21300188: Chrono_94
+    21300190: Chrono_95
+    21300192: Chrono_96
+    21300194: Chrono_97
+    21300196: Chrono_98
+    21300198: Chrono_99
+    21300200: Chrono_100
+    21300202: Chrono_101
+    21300204: Chrono_102
+    21300206: Chrono_103
+    21300208: Chrono_104
+    21300210: Chrono_105
+    21300212: Chrono_106
+    21300214: Chrono_107
+    21300216: Chrono_108
+    21300218: Chrono_109
+    21300220: Chrono_110
+    21300222: Chrono_111
+    21300224: Chrono_112
+    21300226: Chrono_113
+    21300228: Chrono_114
+    21300230: Chrono_115
+    21300232: Chrono_116
+    21300234: Chrono_117
+    21300236: Chrono_118
+    21300238: Chrono_119
+    21300240: Chrono_120
+    21300242: Chrono_121
+    21300244: Chrono_122
+    21300246: Chrono_123
+    21300248: Chrono_124
+    21300250: Chrono_125
+    21300252: Chrono_126
+    21300254: Chrono_127
+    21300256: Chrono_128
+    21300258: Chrono_129
+    21300260: Chrono_130
+    21300262: Chrono_131
+    21300264: Chrono_132
+    21300266: Chrono_133
+    21300268: Chrono_134
+    21300270: Chrono_135
+    21300272: Chrono_136
+    21300274: Chrono_137
+    21300276: Chrono_138
+    21300278: Chrono_139
+    21300280: Chrono_140
+    21300282: Chrono_141
+    21300284: Chrono_142
+    21300286: Chrono_143
+    21300288: Chrono_144
+    21300290: Chrono_145
+    21300292: Chrono_146
+    21300294: Chrono_147
+    21300296: Chrono_148
+    21300298: Chrono_149
+    21300300: Chrono_150
+    21300302: Chrono_151
+    21300304: Chrono_152
+    21300306: Chrono_153
+    21300308: Chrono_154
+    21300310: Chrono_155
+    21300312: Chrono_156
+    21300314: Chrono_157
+    21300316: Chrono_158
+    21300318: Chrono_159
+    21300320: Chrono_160
+    21300322: Chrono_161
+    21300324: Chrono_162
+    21300326: Chrono_163
+    21300328: Chrono_164
+    21300330: Chrono_165
+    21300332: Chrono_166
+    21300334: Chrono_167
+    21300336: Chrono_168
+    21300338: Chrono_169
+    21300340: Chrono_170
+    21300342: Chrono_171
+    21300344: Chrono_172
+    21300346: Chrono_173
+    21300348: Chrono_174
+    21300350: Chrono_175
+    21300352: Chrono_176
+    21300354: Chrono_177
+    21300356: Chrono_178
+    21300358: Chrono_179
+    21300360: Chrono_180
+    21300362: Chrono_181
+    21300364: Chrono_182
+    21300366: Chrono_183
+    21300368: Chrono_184
+    21300370: Chrono_185
+    21300372: Chrono_186
+    21300374: Chrono_187
+    21300376: Chrono_188
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chrono_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 731
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 731
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 731
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 731
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 731
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 731
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 731
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 731
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 731
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 731
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 731
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 731
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 688
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 688
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 688
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 688
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 688
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 688
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 688
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 688
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 688
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_24
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 688
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 688
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 688
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 688
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_28
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 648
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 648
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 648
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_31
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 648
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 648
+        width: 15
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 648
+        width: 14
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_34
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 648
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_35
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 648
+        width: 14
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 648
+        width: 15
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_37
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 648
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_38
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 648
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_39
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 648
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_40
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 648
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_41
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 648
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_42
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 648
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_43
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 497
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_44
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 605
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_45
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 605
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_46
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 605
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_47
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 605
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_48
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 605
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_49
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 605
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 597
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_51
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 589
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 589
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_53
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 597
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_54
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 597
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 563
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_56
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 563
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_57
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_58
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_60
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 563
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_61
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 541
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_62
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 541
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_63
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 541
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_64
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 541
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_65
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 541
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_66
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 520
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_67
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 520
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 520
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_69
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 520
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_70
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 520
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_71
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 520
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 521
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_73
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 521
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_74
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 521
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_75
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 486
+        width: 16
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5000019, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_76
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 486
+        width: 22
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 480
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_78
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 480
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_79
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 480
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_80
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 480
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_81
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 480
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 480
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_83
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 480
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_84
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 480
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_85
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 486
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.500001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_86
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 486
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_87
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 485
+        width: 29
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5000011, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_88
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 343
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_89
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 438
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_90
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 435
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_91
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 438
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_92
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 434
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_93
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 437
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 437
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_95
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 437
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_96
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 437
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_97
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_98
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 438
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_99
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 438
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_101
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 435
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_102
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 391
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_103
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 391
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_104
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 391
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_105
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 391
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_106
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 391
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 391
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_108
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 392
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_109
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 392
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_110
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 392
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_111
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 392
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_112
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 381
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_113
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 350
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_114
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 350
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_115
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 350
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_116
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 350
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_117
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 350
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_118
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 350
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_119
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 350
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_120
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 341
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_121
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 339
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_122
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 353
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_123
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 255
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_124
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 310
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_125
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 310
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_126
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 310
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_127
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 310
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_128
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 310
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_129
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 289
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_130
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 289
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_131
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 289
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_132
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 289
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_133
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 272
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_134
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 272
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_135
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 272
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_136
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 272
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_137
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 272
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_138
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 247
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_139
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 247
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_140
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 247
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_141
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 160
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_142
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 227
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_143
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 227
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_144
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 227
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_145
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 227
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_146
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 227
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_147
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 227
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_148
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 198
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_149
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 206
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_150
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 206
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_151
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 182
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_152
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 182
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_153
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 184
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_154
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 184
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_155
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 185
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_156
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 185
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_157
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_158
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_159
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 159
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_160
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 159
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_161
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 159
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_162
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 159
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_163
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 144
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_164
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_165
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_166
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 151
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_167
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 150
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_168
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 159
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_169
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 101
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_170
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_171
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 102
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_172
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_173
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 122
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_174
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 104
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_175
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 122
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_177
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_178
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 116
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_179
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 116
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_180
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_181
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 102
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_182
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 101
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_183
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_184
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_185
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 102
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_186
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 68
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_187
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 68
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chrono_188
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 69
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
