@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour {
         float horizontalMovement = Input.GetAxis("Horizontal");
         float verticalMovement = Input.GetAxis("Vertical");
 
+        // do rotation ---------------------------------------------------------------------
         // get current rotation speed
         float currentAngularVelocity = m_rigidBody.angularVelocity;
 
@@ -52,19 +53,20 @@ public class PlayerController : MonoBehaviour {
         m_rigidBody.AddTorque(newAngularVelocity);
         //Debug.Log("AV=" + (Mathf.Abs(newAngularVelocity) + Mathf.Abs(currentAngularVelocity)) + ": MRS=" + m_maxRotationSpeed);
 
-
-
-        // add thrust
+        // add thrust ---------------------------------------------------------------------
+        // calc additional thrust
         float additionalThrust = verticalMovement * m_moveMultiplier;
 
+        // check that it does not exceed bounds
         if ((Mathf.Abs(additionalThrust) + Mathf.Abs(m_rigidBody.velocity.magnitude)) > m_maxThrustSpeed) additionalThrust = 0f;
 
+        // add relative force (vertical axis)
         m_rigidBody.AddRelativeForce(new Vector2(0f, additionalThrust));
 
         //Debug.Log("VT=" + (Mathf.Abs(additionalThrust) + Mathf.Abs(m_rigidBody.velocity.y)) + ": MRS=" + m_maxThrustSpeed);
         //Debug.Log("RB.V=" + Mathf.Abs(m_rigidBody.velocity.y));
         //Debug.Log("AT=" + additionalThrust);
-        Debug.Log("velocity.y=" + Mathf.Abs(m_rigidBody.velocity.magnitude));
+        //Debug.Log("velocity.y=" + Mathf.Abs(m_rigidBody.velocity.magnitude));
 
         //m_rigidBody.AddForce(new Vector2(horizontalMovement * m_horizontalMovementSpeed, verticalMovement * m_verticalMovementSpeed));
 
