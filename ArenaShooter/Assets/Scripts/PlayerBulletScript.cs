@@ -7,6 +7,9 @@ public class PlayerBulletScript : MonoBehaviour {
     [SerializeField]
     private int m_damage;
 
+    [SerializeField]
+    private GameObject m_impactEffect;
+
     private PlayerBulletPooler m_pooler;
 
     public void Initialize(PlayerBulletPooler pooler) {
@@ -23,6 +26,7 @@ public class PlayerBulletScript : MonoBehaviour {
     }
     // return the bullet to the pooler
     private void Die() {
+        Instantiate(m_impactEffect, transform.position, Quaternion.identity);
         m_pooler.ReturnPlayerBulletToPool(gameObject);
     }
 }

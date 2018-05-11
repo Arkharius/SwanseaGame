@@ -7,7 +7,7 @@ TextureImporter:
     21300004: Lasers1_0
     21300006: Lasers1_1
     21300008: Lasers1_2
-    21300010: Lasers1_3
+    21300010: EnemyLaser
     21300012: Lasers1_4
     21300014: Lasers1_5
     21300016: PowerShot
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lasers1_3
+      name: EnemyLaser
       rect:
         serializedVersion: 2
         x: 78

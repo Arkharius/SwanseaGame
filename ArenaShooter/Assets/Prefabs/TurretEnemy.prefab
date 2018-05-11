@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50279372354553658}
   - component: {fileID: 60772833694013950}
   - component: {fileID: 114080607348116038}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: TurretEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,8 +136,10 @@ MonoBehaviour:
   m_turnRate: 0.5
   m_movementSpeed: 0
   m_hitPoints: 5
-  m_range: 2
+  m_range: 10
   m_firingCone: 5
+  m_shotsPerSecond: 0
+  m_enemyBulletSpeed: 1
 --- !u!212 &212248369993172592
 SpriteRenderer:
   m_ObjectHideFlags: 1
