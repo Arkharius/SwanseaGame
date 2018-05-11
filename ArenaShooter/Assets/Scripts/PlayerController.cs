@@ -47,20 +47,47 @@ public class PlayerController : MonoBehaviour, IDamageable {
         Gizmos.DrawWireSphere(transform.TransformPoint(m_bulletOriginRight), 0.1f);
     }
 
+    // flag for powerful shot
+    private bool m_powerShot = false;
 
+    [SerializeField]
+    private float m_powerShotSpeedMultiplier;
 
     // Use this for initialization
-    void Start () {
+    void Start() {
         // set rotation drag speed
         m_rigidBody.angularDrag = m_rotationDrag;
         //m_playerBulletPooler = new PlayerBulletPooler();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         HandleMovement();
         HandleFiring();
-	}
+        HandlePowerShot();
+    }
+
+    private void HandlePowerShot() {
+        // if powershot is enabled make it available for firing
+        if (m_powerShot && Input.GetKey(KeyCode.LeftAlt)) {
+            m_powerShot = false;
+
+            GameObject newPowerShot = m_playerBulletPooler.GetPowerShot();
+            newPowerShot.transform.position = transform.position;
+            newPowerShot.transform.rotation = transform.rotation;
+
+            newPowerShot.GetComponent<Rigidbody2D>().velocity = newPowerShot.transform.up * m_powerShotSpeedMultiplier;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Pickups") && collision.gameObject.tag == "PowerShot") {
+            // set the shot back on
+            m_powerShot = true;
+            // remove the pickup
+            Destroy(collision.gameObject);
+        }
+    }
 
     private void HandleFiring() {
         // start cooldown for shots
@@ -68,10 +95,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
             m_shotCoolDown -= Time.deltaTime;
         }
         if (m_shotCoolDown <= 0f && Input.GetKey(KeyCode.Space)) {
-            
+
             //shot cooldown
             m_shotCoolDown = 1f / m_shotsPerSecond;
-           
+
             // left bullet spawn - get a new bullet from the pooler
             GameObject newBulletLeft = m_playerBulletPooler.GetPlayerBullet();
 

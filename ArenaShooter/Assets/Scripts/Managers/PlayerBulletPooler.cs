@@ -5,10 +5,34 @@ using UnityEngine;
 public class PlayerBulletPooler : MonoBehaviour {
 
     [SerializeField]
-    private GameObject m_playerBulletPrefab;
+    private GameObject m_playerBulletPrefab, m_playerPowerShotPrefab;
     private List<GameObject> m_playerBulletPool = new List<GameObject>();
+    private List<GameObject> m_playerPowerShotPool = new List<GameObject>();
 
-	public GameObject GetPlayerBullet() {
+    public GameObject GetPowerShot() {
+        if (m_playerPowerShotPool.Count > 0) {
+            GameObject powerShotToReturn = m_playerPowerShotPool[0];
+            m_playerPowerShotPool.RemoveAt(0);
+            powerShotToReturn.SetActive(true);
+
+            return powerShotToReturn;
+        }
+        else {
+            GameObject newPS = Instantiate(m_playerPowerShotPrefab);
+            newPS.GetComponent<PlayerPowerShotScript>().Initialize(this);
+            return newPS;
+        }
+    }
+
+    public void ReturnPlayerPowerShotToPool(GameObject bullet) {
+        //Disable bullet
+        bullet.SetActive(false);
+
+        //Add to pool
+        m_playerPowerShotPool.Add(bullet);
+    }
+
+    public GameObject GetPlayerBullet() {
         if (m_playerBulletPool.Count > 0) {
             //Store bullet for a moment
             GameObject bulletToReturn = m_playerBulletPool[0];
