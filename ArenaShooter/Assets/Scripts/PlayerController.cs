@@ -35,8 +35,12 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
     [SerializeField]
     private int m_hitpoints;
-
     private int m_maxHitPoints;
+
+    [SerializeField]
+    private float m_powerShotSpeedMultiplier;
+
+    private bool m_powerShot = false;
 
     // set bullet origin points -- exposed as public to display in the Unity editor.
     public Vector2 m_bulletOriginLeft = Vector2.zero;
@@ -49,12 +53,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
         Gizmos.DrawWireSphere(transform.TransformPoint(m_bulletOriginRight), 0.1f);
     }
 
-    // flag for powerful shot
-    private bool m_powerShot = false;
-
-    [SerializeField]
-    private float m_powerShotSpeedMultiplier;
-
     // Use this for initialization
     void Start() {
         // set rotation drag speed
@@ -63,7 +61,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
     }
 
     // Update is called once per frame
-    void Update() {
+    void FixedUpdate() {
         HandleMovement();
         HandleFiring();
         HandlePowerShot();
@@ -100,13 +98,13 @@ public class PlayerController : MonoBehaviour, IDamageable {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Pickups") && collision.gameObject.tag == "HitPoints") {
 
             // check to see if we need any hitpoints, if not we can leave the pickup where it is.
-            if (m_hitpoints < m_maxHitPoints) { 
+            if (m_hitpoints < m_maxHitPoints) {
                 // add the hitpoints back in
                 m_hitpoints += collision.gameObject.GetComponent<HitPointPickupScript>().Hitpoints;
                 if (m_hitpoints > m_maxHitPoints) m_hitpoints = m_maxHitPoints;
                 // remove the pickup
                 Destroy(collision.gameObject);
-            }   
+            }
         }
     }
 
