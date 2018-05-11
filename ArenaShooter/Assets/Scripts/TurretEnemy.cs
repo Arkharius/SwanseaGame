@@ -5,7 +5,10 @@ using UnityEngine;
 public class TurretEnemy : EnemyBase {
 
     [SerializeField]
-    private float m_range = 2.0f;
+    private float m_range = 5.0f;
+
+    [SerializeField]
+    private float m_firingCone = 5.0f;
 
     private Transform m_target;
 
@@ -20,9 +23,15 @@ public class TurretEnemy : EnemyBase {
         if (distanceToTarget <= m_range)
         {
             TurnTorwardsTarget(m_target.position);
-
+            
             // if angle is within fire threshold
-            // Shoot();
+            float angleToTarget = Vector2.SignedAngle(transform.up, m_target.position - transform.position);
+            if (Mathf.Abs(angleToTarget) < m_firingCone)
+            {
+                Debug.Log(angleToTarget);
+                // Shoot();
+            }
+
         }
 		
 	}
