@@ -42,6 +42,12 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
     private bool m_powerShot = false;
 
+    [SerializeField]
+    private ParticleSystem m_trailParticles;
+
+    [SerializeField]
+    private ParticleSystem m_ReverseTrailParticles;
+
     // set bullet origin points -- exposed as public to display in the Unity editor.
     public Vector2 m_bulletOriginLeft = Vector2.zero;
     public Vector2 m_bulletOriginRight = Vector2.zero;
@@ -65,6 +71,23 @@ public class PlayerController : MonoBehaviour, IDamageable {
         HandleMovement();
         HandleFiring();
         HandlePowerShot();
+        HandleParticles();
+    }
+
+    private void HandleParticles() {
+        if (Input.GetAxis("Vertical") > 0 && m_trailParticles != null) {
+            m_trailParticles.Play();
+        }
+        else if (m_trailParticles != null) {
+            m_trailParticles.Stop();
+        }
+
+        if (Input.GetAxis("Vertical") < 0 && m_ReverseTrailParticles != null) {
+            m_ReverseTrailParticles.Play();
+        }
+        else if (m_ReverseTrailParticles != null) {
+            m_ReverseTrailParticles.Stop();
+        }
     }
 
     private void HandlePowerShot() {
