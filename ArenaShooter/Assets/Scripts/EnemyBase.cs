@@ -12,7 +12,7 @@ public class EnemyBase : MonoBehaviour, IDamageable {
     private float m_turnRate = 0.5f;
 
     [SerializeField]
-    private float m_movementSpeed;
+    private float m_movementSpeed = 1f;
 
     [SerializeField]
     private int m_hitPoints = 5;
@@ -20,7 +20,7 @@ public class EnemyBase : MonoBehaviour, IDamageable {
 
     public void Die()
     {
-
+        Destroy(gameObject);
     }
 
     public void TakeDamage(int damage)
@@ -33,14 +33,25 @@ public class EnemyBase : MonoBehaviour, IDamageable {
 
     protected void HandleMovement(Vector3 destination)
     {
+        TurnTorwardsTarget(destination);
+        MoveTowardsTarget(destination);
+    }
+
+    protected void MoveTowardsTarget(Vector3 destination)
+    {
+        // Todo - scale force based on distance to target
+        float distanceToDestination = Vector3.Distance(transform.position, destination);
+        // move towards target
+        m_rigidbody.AddForce(transform.up * Mathf.Clamp(distanceToDestination, 0f, m_movementSpeed));
+    }
+
+    protected void TurnTorwardsTarget(Vector3 destination)
+    {
         // track towards player
         Vector2 targetVector = destination - transform.position;
         float targetAngle = Vector2.SignedAngle(transform.up, targetVector);
 
         // Turn towards target
         m_rigidbody.AddTorque(targetAngle * m_turnRate);
-
-        // move towards target     
-        m_rigidbody.AddForce(transform.up * m_movementSpeed);
     }
 }
