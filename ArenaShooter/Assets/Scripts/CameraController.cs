@@ -13,6 +13,8 @@ public class CameraController : MonoBehaviour {
     [Range(0f, 10f)]
     private float m_leadAmount;
     private float myZ;
+    private Vector3 velocity = Vector3.zero;
+
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class CameraController : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
+        // Vector3 targetPosition = Vector3.SmoothDamp(transform.position, m_player.position + (m_player.up * m_leadAmount), ref velocity, m_movementSpeed);
         Vector3 targetPosition = Vector3.Lerp(transform.position, m_player.position + (m_player.up * m_leadAmount), m_movementSpeed * Time.deltaTime);
         targetPosition.z = myZ;
         transform.position = targetPosition;
