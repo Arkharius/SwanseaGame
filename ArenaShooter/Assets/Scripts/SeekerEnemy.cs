@@ -2,24 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SeekerEnemy : EnemyBase {
+public class SeekerEnemy : BasicEnemy {
 
     private Transform m_player;
     private bool m_playerFound = false;
-    private Vector3 m_target = Vector3.zero;
     [SerializeField]
     private float m_positionReachedThreshold = .5f;
     [SerializeField]
     private LayerMask m_searchLineCollidesWith;
 
 	// Use this for initialization
-	void Start () {
+	new void Start () {
+        base.Start();
+
         m_player = GameObject.FindGameObjectWithTag("Player").transform;
         FindNextPosition();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	new void Update () {
 		if(Physics2D.Linecast(transform.position, m_player.position, m_searchLineCollidesWith).transform == m_player)
         {
             //found player, move directly to him

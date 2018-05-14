@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4183717401741574}
   - component: {fileID: 212745711498500258}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 50856112272680102}
   - component: {fileID: 60205840772149242}
   - component: {fileID: 114407935965592328}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: SeekerEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

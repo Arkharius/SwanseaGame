@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
     }
 
     // Update is called once per frame
-    void FixedUpdate() {
+    void Update() {
         HandleMovement();
         HandleFiring();
         HandlePowerShot();
@@ -82,17 +82,21 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
     private void HandleParticles() {
         if (Input.GetAxis("Vertical") > 0 && m_trailParticles != null) {
-            m_trailParticles.Play();
+            if(!m_trailParticles.isPlaying)
+                m_trailParticles.Play();
         }
         else if (m_trailParticles != null) {
-            m_trailParticles.Stop();
+            if (m_trailParticles.isPlaying)
+                m_trailParticles.Stop();
         }
 
         if (Input.GetAxis("Vertical") < 0 && m_ReverseTrailParticles != null) {
+            if (!m_ReverseTrailParticles.isPlaying)
             m_ReverseTrailParticles.Play();
         }
         else if (m_ReverseTrailParticles != null) {
-            m_ReverseTrailParticles.Stop();
+            if (m_ReverseTrailParticles.isPlaying)
+                m_ReverseTrailParticles.Stop();
         }
     }
 

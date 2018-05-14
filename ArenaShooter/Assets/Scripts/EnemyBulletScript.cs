@@ -17,15 +17,16 @@ public class EnemyBulletScript : MonoBehaviour {
         m_pooler = pooler;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            // set collision enemy to take damage
-            collision.gameObject.GetComponent<IDamageable>().TakeDamage(m_damage);
-            // destroy bullet
-            Die();
-        }
+        //with the collision layers, we know what we're going to collide with, so we just see if it's damageable and apply damage if we can.
+        IDamageable damageable = collision.gameObject.GetComponent<IDamageable>();
+
+        if (damageable != null)
+            damageable.TakeDamage(m_damage);
+
+        // destroy bullet
+        Die();
     }
     // return the bullet to the pooler
     private void Die()

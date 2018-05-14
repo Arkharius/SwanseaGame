@@ -20,9 +20,15 @@ public class Pathfinder {
     }
 
     public static bool showAll = false;
-
-    public static void ConnectNodes(LayerMask blockers)
+    [SerializeField]
+    public static float defaultSearchRange = 25f;
+    [SerializeField]
+    public static string blockingLayer = "Terrain";
+    public static void ConnectNodes(string blockers, float searchRange)
     {
+        PlayerPrefs.SetString("blockingLayer", blockers);
+        PlayerPrefs.SetFloat("defaultSearchRange", searchRange);
+
         Debug.Log("Starting node scan & connect");
 
         GameObject[] allNodes = GameObject.FindGameObjectsWithTag("Pathnode");
@@ -37,8 +43,8 @@ public class Pathfinder {
             for (int o = 0; o < allNodes.Length; o++)
             {
                 if (n == o) continue;
-                if (Vector3.Distance(allNodes[n].transform.position, allNodes[o].transform.position) > 15f) continue;
-                if(Physics2D.Linecast(allNodes[n].transform.position, allNodes[o].transform.position).collider == null)
+                if (Vector3.Distance(allNodes[n].transform.position, allNodes[o].transform.position) > searchRange) continue;
+                if(Physics2D.Linecast(allNodes[n].transform.position, allNodes[o].transform.position, 1 << LayerMask.NameToLayer(blockers), 0f).collider == null)
                 {
                     nodeBuffer.Add(allNodes[o].GetComponent<PathNode>());
                 }
@@ -65,7 +71,7 @@ public class Pathfinder {
             //    m_allNodes[i] = allGOs[i].GetComponent<PathNode>();
             //}
 
-            ConnectNodes(1 << LayerMask.NameToLayer("Terrain"));
+            ConnectNodes(PlayerPrefs.GetString("blockingLayer"), PlayerPrefs.GetFloat("defaultSearchRange"));
         }
 
         
@@ -157,7 +163,7 @@ public class Pathfinder {
 
         finalPath[0].displayColor = Color.cyan;
 
-        Debug.Log("Returning " + finalPath[0].transform.position);
+        //Debug.Log("Returning " + finalPath[0].transform.position);
         return finalPath[0].transform.position;
     }
 
@@ -175,6 +181,7 @@ public class Pathfinder {
         {
             //Get distance between this node and the target
             distance = Vector3.Distance(position, m_allNodes[i].transform.position);
+
             //if less then the current closest, make this the closest
             if (distance < lastDistance)
             {

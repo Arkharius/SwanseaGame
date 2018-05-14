@@ -7,7 +7,6 @@ using UnityEngine;
 public class PathNodeEditor : Editor
 {
 
-    LayerMask m_pathBlockers;
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
@@ -24,10 +23,10 @@ public class PathNodeEditor : Editor
                 Pathfinder.showAll = false;
         }
 
-        m_pathBlockers = EditorGUILayout.LayerField(m_pathBlockers);
-
+        Pathfinder.blockingLayer = EditorGUILayout.TextField(Pathfinder.blockingLayer);
+        Pathfinder.defaultSearchRange = EditorGUILayout.FloatField(Pathfinder.defaultSearchRange);
 
         if (GUILayout.Button("Run connector"))
-            Pathfinder.ConnectNodes(m_pathBlockers);
+            Pathfinder.ConnectNodes(Pathfinder.blockingLayer, Pathfinder.defaultSearchRange);
     }
 }

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212596603518073596}
   - component: {fileID: 50235828101674070}
   - component: {fileID: 58984931389847528}
-  m_Layer: 17
+  m_Layer: 13
   m_Name: PowerShotPickup
   m_TagString: PowerShot
   m_Icon: {fileID: 0}

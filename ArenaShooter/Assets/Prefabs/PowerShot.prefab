@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58016137938230028}
   - component: {fileID: 50003009605640366}
   - component: {fileID: 114516506525872944}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: PowerShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
